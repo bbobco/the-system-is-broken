@@ -62,11 +62,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\AnimateVideoPlaybackSpeed.cs" />
-    <Compile Include="Assets\FirstPersonController.cs" />
-    <Compile Include="Assets\GravityAttractor.cs" />
-    <Compile Include="Assets\GravityBody.cs" />
-    <Compile Include="Assets\VideoProperties.cs" />
+    <Compile Include="Assets\Scripts\AnimateVideoPlaybackSpeed.cs" />
+    <Compile Include="Assets\Scripts\BarChart.cs" />
+    <Compile Include="Assets\Scripts\FirstPersonController.cs" />
+    <Compile Include="Assets\Scripts\GravityAttractor.cs" />
+    <Compile Include="Assets\Scripts\GravityBody.cs" />
+    <Compile Include="Assets\Scripts\IgnoreBarCollisions.cs" />
+    <Compile Include="Assets\Scripts\VideoProperties.cs" />
     <None Include="Assets\SkySerie Freebie\Hdri setup.txt" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>D:/unity games/planet game/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
@@ -74,8 +76,20 @@
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>D:/unity games/planet game/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Editor">
+      <HintPath>D:/unity games/planet game/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Runtime">
+      <HintPath>D:/unity games/planet game/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>D:/unity games/planet game/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Lightweight.Runtime">
+      <HintPath>D:/unity games/planet game/Library/ScriptAssemblies/Unity.RenderPipelines.Lightweight.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Lightweight.Editor">
+      <HintPath>D:/unity games/planet game/Library/ScriptAssemblies/Unity.RenderPipelines.Lightweight.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>D:/unity games/planet game/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
@@ -86,29 +100,11 @@
     <Reference Include="Unity.CollabProxy.Editor">
       <HintPath>D:/unity games/planet game/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Rider.Editor">
-      <HintPath>D:/unity games/planet game/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro">
-      <HintPath>D:/unity games/planet game/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.UI">
-      <HintPath>D:/unity games/planet game/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.RenderPipelines.Core.Editor">
-      <HintPath>D:/unity games/planet game/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.RenderPipelines.Core.Runtime">
-      <HintPath>D:/unity games/planet game/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.RenderPipelines.Lightweight.Runtime">
-      <HintPath>D:/unity games/planet game/Library/ScriptAssemblies/Unity.RenderPipelines.Lightweight.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.RenderPipelines.Lightweight.Editor">
-      <HintPath>D:/unity games/planet game/Library/ScriptAssemblies/Unity.RenderPipelines.Lightweight.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Postprocessing.Editor">
       <HintPath>D:/unity games/planet game/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Rider.Editor">
+      <HintPath>D:/unity games/planet game/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
       <HintPath>D:/unity games/planet game/Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
@@ -121,6 +117,12 @@
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
       <HintPath>D:/unity games/planet game/Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>D:/unity games/planet game/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>D:/unity games/planet game/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
