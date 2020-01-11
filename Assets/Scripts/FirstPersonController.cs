@@ -51,9 +51,15 @@ public class FirstPersonController : MonoBehaviour {
 				playerBody.AddForce(transform.up * jumpForce);
 			}
 		}
-		
-		// Grounded check
-		Ray ray = new Ray(transform.position, -transform.up);
+
+        // quit
+        if (Input.GetKey("escape"))
+        {
+            Application.Quit();
+        }
+
+        // Grounded check
+        Ray ray = new Ray(transform.position, -transform.up);
 		RaycastHit hit;
 		
 		if (Physics.Raycast(ray, out hit, 1 + .1f, groundedMask)) {

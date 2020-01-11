@@ -593,22 +593,6 @@
       <Project>{F37EB8D3-595B-2A8E-9D57-98253E4F534B}</Project>
       <Name>Unity.VSCode.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.TextMeshPro.Editor.csproj">
-      <Project>{3A848AB7-9891-EDDA-D555-BF184C2F81F4}</Project>
-      <Name>Unity.TextMeshPro.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.CollabProxy.Editor.csproj">
-      <Project>{C12CEEC6-100C-58A2-DE36-314E4DE5E40B}</Project>
-      <Name>Unity.CollabProxy.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Rider.Editor.csproj">
-      <Project>{C540080A-BED7-978E-DDFC-EE09E5DBB722}</Project>
-      <Name>Unity.Rider.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.TextMeshPro.csproj">
-      <Project>{07A21C90-D344-AE1A-8456-9910C203B41A}</Project>
-      <Name>Unity.TextMeshPro</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.Core.Editor.csproj">
       <Project>{A1B3D246-CBF8-5C7A-7D07-73F07D9A0972}</Project>
       <Name>Unity.RenderPipelines.Core.Editor</Name>
@@ -616,6 +600,10 @@
     <ProjectReference Include="Unity.RenderPipelines.Core.Runtime.csproj">
       <Project>{DF88BCE8-B64F-969D-3C39-F0C65EF04F6B}</Project>
       <Name>Unity.RenderPipelines.Core.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TextMeshPro.Editor.csproj">
+      <Project>{3A848AB7-9891-EDDA-D555-BF184C2F81F4}</Project>
+      <Name>Unity.TextMeshPro.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.Lightweight.Runtime.csproj">
       <Project>{FCBD67EC-29CD-1CFA-DD5A-DE23C045E679}</Project>
@@ -625,9 +613,17 @@
       <Project>{EDC54531-1C68-9C68-05EA-89DE05B39F96}</Project>
       <Name>Unity.RenderPipelines.Lightweight.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.CollabProxy.Editor.csproj">
+      <Project>{C12CEEC6-100C-58A2-DE36-314E4DE5E40B}</Project>
+      <Name>Unity.CollabProxy.Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.Postprocessing.Editor.csproj">
       <Project>{CBEC4DCB-1B2B-E03B-0387-393C59967E8B}</Project>
       <Name>Unity.Postprocessing.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Rider.Editor.csproj">
+      <Project>{C540080A-BED7-978E-DDFC-EE09E5DBB722}</Project>
+      <Name>Unity.Rider.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.csproj">
       <Project>{114AAB78-0DA4-48AB-A359-9E0515221173}</Project>
@@ -645,13 +641,21 @@
       <Project>{21FE3B2C-E13B-425A-BFBA-789779C1B460}</Project>
       <Name>Unity.RenderPipelines.Core.ShaderLibrary</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.TextMeshPro.csproj">
+      <Project>{07A21C90-D344-AE1A-8456-9910C203B41A}</Project>
+      <Name>Unity.TextMeshPro</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\AnimateVideoPlaybackSpeed.cs" />
-    <Compile Include="Assets\FirstPersonController.cs" />
-    <Compile Include="Assets\GravityAttractor.cs" />
-    <Compile Include="Assets\GravityBody.cs" />
-    <Compile Include="Assets\VideoProperties.cs" />
+    <Compile Include="Assets\Scripts\AnimateVideoPlaybackSpeed.cs" />
+    <Compile Include="Assets\Scripts\BarChart.cs" />
+    <Compile Include="Assets\Scripts\FirstPersonController.cs" />
+    <Compile Include="Assets\Scripts\GravityAttractor.cs" />
+    <Compile Include="Assets\Scripts\GravityBody.cs" />
+    <Compile Include="Assets\Scripts\IgnoreBarCollisions.cs" />
+    <Compile Include="Assets\Scripts\ProjectileCollisionFilter.cs" />
+    <Compile Include="Assets\Scripts\ShootProjectile.cs" />
+    <Compile Include="Assets\Scripts\VideoProperties.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\SkySerie Freebie\Hdri setup.txt" />
