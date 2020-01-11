@@ -6,12 +6,14 @@ public class ShootProjectile : MonoBehaviour
 {
     // Start is called before the first frame update
     public Rigidbody MyProjectile;
+    public Transform cameraTransform;
     public float speed = 10F;
     public bool fire = false;
 
 
     void Start()
     {
+        cameraTransform = Camera.main.transform;
     }
 
     // Update is called once per frame
@@ -36,8 +38,8 @@ public class ShootProjectile : MonoBehaviour
             Transform projectileSpawn = transform;
             // projectileSpawn.transform.position += transform.forward * speed;
             Rigidbody projectile = Instantiate(MyProjectile, projectileSpawn.position, projectileSpawn.rotation);
-            projectile.velocity = transform.forward * speed;
-            projectile.transform.position += transform.forward * 2;
+            projectile.velocity = cameraTransform.forward * speed;
+            projectile.transform.position += cameraTransform.forward * 2;
         }
     }
 }
