@@ -352,7 +352,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gravity: -9.8
-  smooth: 0.5
+  smooth: 0.6
 --- !u!135 &566879565
 SphereCollider:
   m_ObjectHideFlags: 0

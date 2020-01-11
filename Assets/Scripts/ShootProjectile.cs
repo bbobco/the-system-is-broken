@@ -37,6 +37,7 @@ public class ShootProjectile : MonoBehaviour
             // projectileSpawn.transform.position += transform.forward * speed;
             Rigidbody projectile = Instantiate(MyProjectile, projectileSpawn.position, projectileSpawn.rotation);
             projectile.velocity = transform.forward * speed;
+            projectile.transform.position += transform.forward * 2;
         }
     }
 }
