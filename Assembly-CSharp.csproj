@@ -68,6 +68,8 @@
     <Compile Include="Assets\Scripts\GravityAttractor.cs" />
     <Compile Include="Assets\Scripts\GravityBody.cs" />
     <Compile Include="Assets\Scripts\IgnoreBarCollisions.cs" />
+    <Compile Include="Assets\Scripts\ProjectileCollisionFilter.cs" />
+    <Compile Include="Assets\Scripts\ShootProjectile.cs" />
     <Compile Include="Assets\Scripts\VideoProperties.cs" />
     <None Include="Assets\SkySerie Freebie\Hdri setup.txt" />
     <Reference Include="Unity.Timeline.Editor">

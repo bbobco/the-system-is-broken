@@ -309,7 +309,7 @@ VideoPlayer:
   m_AspectRatio: 2
   m_DataSource: 0
   m_PlaybackSpeed: 2.2
-  m_AudioOutputMode: 1
+  m_AudioOutputMode: 0
   m_TargetAudioSources:
   - {fileID: 566879561}
   m_DirectAudioVolumes:
@@ -701,9 +701,10 @@ GameObject:
   - component: {fileID: 2019144440}
   - component: {fileID: 2019144439}
   - component: {fileID: 2019144445}
+  - component: {fileID: 2019144446}
   m_Layer: 0
   m_Name: player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -825,8 +826,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mouseSensitivityX: 1
   mouseSensitivityY: 1
-  walkSpeed: 6
-  jumpForce: 220
+  walkSpeed: 12
+  jumpForce: 1000
   groundedMask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 4294967295
+--- !u!114 &2019144446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2019144438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70f8f75829cb50e4291c31f6295b471a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MyProjectile: {fileID: 6067792441782813751, guid: 185643b5547c2304c8d09ec1bc6087ce,
+    type: 3}
+  speed: 50
+  fire: 0

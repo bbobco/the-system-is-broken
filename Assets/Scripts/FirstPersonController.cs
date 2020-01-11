@@ -17,14 +17,14 @@ public class FirstPersonController : MonoBehaviour {
 	Vector3 smoothMoveVelocity;
 	float verticalLookRotation;
 	Transform cameraTransform;
-	Rigidbody rigidbody;
+	Rigidbody playerBody;
 	
 	
 	void Awake() {
 		Cursor.lockState = CursorLockMode.Locked;
 		Cursor.visible = false;
 		cameraTransform = Camera.main.transform;
-		rigidbody = GetComponent<Rigidbody> ();
+		playerBody = GetComponent<Rigidbody> ();
 	}
 	
 	void Update() {
@@ -45,8 +45,10 @@ public class FirstPersonController : MonoBehaviour {
 		
 		// Jump
 		if (Input.GetButtonDown("Jump")) {
-			if (grounded) {
-				rigidbody.AddForce(transform.up * jumpForce);
+
+            Debug.Log("Jump Input");
+            if (grounded) {
+				playerBody.AddForce(transform.up * jumpForce);
 			}
 		}
 		
@@ -64,8 +66,8 @@ public class FirstPersonController : MonoBehaviour {
 	}
 	
 	void FixedUpdate() {
-		// Apply movement to rigidbody
+		// Apply movement to playerBody
 		Vector3 localMove = transform.TransformDirection(moveAmount) * Time.fixedDeltaTime;
-		rigidbody.MovePosition(rigidbody.position + localMove);
+		playerBody.MovePosition(playerBody.position + localMove);
 	}
 }
