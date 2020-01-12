@@ -11,7 +11,7 @@ public class MyRotator : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        perlinSeeds = new Vector3(Random.Range(0f, 100f), Random.Range(0f, 1f), Random.Range(0f, 1f));
+        perlinSeeds = new Vector3(Random.Range(0f, 1f), Random.Range(0f, 1f), Random.Range(0f, 1f));
     }
 
     // Update is called once per frame
