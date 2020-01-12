@@ -4,20 +4,29 @@ using System.Collections;
 [RequireComponent (typeof (Rigidbody))]
 public class GravityBody : MonoBehaviour {
 	
-	GravityAttractor planet;
-	Rigidbody rigidbody;
+	GravityAttractor[] attractors;
+	Rigidbody MyRigidBody;
 	
 	void Awake () {
-		planet = GameObject.FindGameObjectWithTag("Planet").GetComponent<GravityAttractor>();
-		rigidbody = GetComponent<Rigidbody> ();
+        GameObject[] planets = GameObject.FindGameObjectsWithTag("Planet");
 
-		// Disable rigidbody gravity and rotation as this is simulated in GravityAttractor script
-		rigidbody.useGravity = false;
-		rigidbody.constraints = RigidbodyConstraints.FreezeRotation;
+        attractors = new GravityAttractor[planets.Length];
+
+        for ( int i = 0; i < attractors.Length; i++)
+        {
+            attractors[i] = planets[i].GetComponent<GravityAttractor>();
+        }
+
+		MyRigidBody = GetComponent<Rigidbody> ();
+
+		// Disable MyRigidBody gravity and rotation as this is simulated in GravityAttractor script
+		MyRigidBody.useGravity = false;
+		MyRigidBody.constraints = RigidbodyConstraints.FreezeRotation;
 	}
 	
 	void FixedUpdate () {
-		// Allow this body to be influenced by planet's gravity
-		planet.Attract(rigidbody);
+        // Allow this body to be influenced by planet's gravity
+        foreach ( GravityAttractor attractor in attractors )
+            attractor.Attract(MyRigidBody);
 	}
 }

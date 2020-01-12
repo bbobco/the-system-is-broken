@@ -69,6 +69,7 @@
     <Compile Include="Assets\Scripts\GravityBody.cs" />
     <Compile Include="Assets\Scripts\IgnoreBarCollisions.cs" />
     <Compile Include="Assets\Scripts\MyRotator.cs" />
+    <Compile Include="Assets\Scripts\RaycastingDemo.cs" />
     <Compile Include="Assets\Scripts\ShootProjectile.cs" />
     <Compile Include="Assets\Shaders\Noise\NoiseTest.cs" />
     <Compile Include="Assets\Shaders\Noise\vertex\MeshBuilder.cs" />
