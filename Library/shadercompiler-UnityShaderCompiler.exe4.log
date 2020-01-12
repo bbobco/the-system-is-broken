@@ -1,4 +1,4 @@
 Base path: 'C:/Program Files/Unity/Hub/Editor/2019.2.17f1/Editor/Data', plugins path 'C:/Program Files/Unity/Hub/Editor/2019.2.17f1/Editor/Data/PlaybackEngines'
 Cmd: initializeCompiler
-Cmd: disassembleShader
-  api=4 insize=40566 outsize=61538 ok=1
+
+Quitting shader compiler process

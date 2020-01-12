@@ -7,6 +7,7 @@ ScriptsOnlyBuild:
     - GravityAttractor
     - GravityBody
     - IgnoreBarCollisions
+    - MyRotator
     - ShootProjectile
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
@@ -41,6 +42,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 54
       Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
     - Class: 82
@@ -52,19 +55,21 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 10460}
+      Script: {instanceID: 10156}
     - Class: 114
-      Script: {instanceID: 10478}
+      Script: {instanceID: 10168}
     - Class: 114
-      Script: {instanceID: 11294}
+      Script: {instanceID: 10582}
     - Class: 114
-      Script: {instanceID: 11468}
+      Script: {instanceID: 10670}
     - Class: 114
-      Script: {instanceID: 11896}
+      Script: {instanceID: 10730}
     - Class: 114
-      Script: {instanceID: 12146}
+      Script: {instanceID: 10948}
     - Class: 114
-      Script: {instanceID: 12764}
+      Script: {instanceID: 11090}
+    - Class: 114
+      Script: {instanceID: 11420}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 135
@@ -286,6 +291,12 @@ ScriptsOnlyBuild:
     className: Selectable
   - hash:
       serializedVersion: 2
+      Hash: ffa8ea88aee24c7db1c82051f34baa90
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: NoiseTest
+  - hash:
+      serializedVersion: 2
       Hash: b3ab2106268377ffe25dd18ac23dca28
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -334,10 +345,22 @@ ScriptsOnlyBuild:
     className: TextContainer
   - hash:
       serializedVersion: 2
+      Hash: b1b7d1ada8b033ac05a431270b4f8620
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MeshBuilder
+  - hash:
+      serializedVersion: 2
       Hash: 5f1752ed2092162f016c19510c28a8b9
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Button
+  - hash:
+      serializedVersion: 2
+      Hash: 1b66ea49bf50bbf060477676f5e1340c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MyRotator
   - hash:
       serializedVersion: 2
       Hash: feb9a5a121d15fa3654d4e50a5233045
