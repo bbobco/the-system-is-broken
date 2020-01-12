@@ -68,7 +68,21 @@
     <Compile Include="Assets\Scripts\GravityAttractor.cs" />
     <Compile Include="Assets\Scripts\GravityBody.cs" />
     <Compile Include="Assets\Scripts\IgnoreBarCollisions.cs" />
+    <Compile Include="Assets\Scripts\MyRotator.cs" />
     <Compile Include="Assets\Scripts\ShootProjectile.cs" />
+    <Compile Include="Assets\Shaders\Noise\NoiseTest.cs" />
+    <Compile Include="Assets\Shaders\Noise\vertex\MeshBuilder.cs" />
+    <None Include="Assets\Shaders\Noise\vertex\ClassicNoise3D.cginc" />
+    <None Include="Assets\Shaders\Noise\HLSL\NoiseTest.shader" />
+    <None Include="Assets\Shaders\Noise\GLSL\NoiseTest.shader" />
+    <None Include="Assets\Shaders\Noise\HLSL\ClassicNoise2D.hlsl" />
+    <None Include="Assets\Shaders\Noise\HLSL\BCCNoise4.hlsl" />
+    <None Include="Assets\Shaders\Noise\HLSL\SimplexNoise3D.hlsl" />
+    <None Include="Assets\Shaders\Noise\GLSL\NoiseTest.glslinc" />
+    <None Include="Assets\Shaders\Noise\vertex\Noise Mesh.shader" />
+    <None Include="Assets\Shaders\Noise\HLSL\SimplexNoise2D.hlsl" />
+    <None Include="Assets\Shaders\Noise\HLSL\ClassicNoise3D.hlsl" />
+    <None Include="Assets\Shaders\Noise\HLSL\BCCNoise8.hlsl" />
     <None Include="Assets\SkySerie Freebie\Hdri setup.txt" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>D:/unity games/planet game/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
@@ -76,20 +90,8 @@
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>D:/unity games/planet game/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.RenderPipelines.Core.Editor">
-      <HintPath>D:/unity games/planet game/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.RenderPipelines.Core.Runtime">
-      <HintPath>D:/unity games/planet game/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>D:/unity games/planet game/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.RenderPipelines.Lightweight.Runtime">
-      <HintPath>D:/unity games/planet game/Library/ScriptAssemblies/Unity.RenderPipelines.Lightweight.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.RenderPipelines.Lightweight.Editor">
-      <HintPath>D:/unity games/planet game/Library/ScriptAssemblies/Unity.RenderPipelines.Lightweight.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>D:/unity games/planet game/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
@@ -100,23 +102,8 @@
     <Reference Include="Unity.CollabProxy.Editor">
       <HintPath>D:/unity games/planet game/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Postprocessing.Editor">
-      <HintPath>D:/unity games/planet game/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Rider.Editor">
       <HintPath>D:/unity games/planet game/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
-      <HintPath>D:/unity games/planet game/Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Postprocessing.Runtime">
-      <HintPath>D:/unity games/planet game/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.ShaderGraph.Editor">
-      <HintPath>D:/unity games/planet game/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
-      <HintPath>D:/unity games/planet game/Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>D:/unity games/planet game/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
