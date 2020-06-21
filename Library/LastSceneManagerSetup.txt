@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/video planet scene.unity
+- path: Assets/Scenes/Testing Area 1.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

@@ -5,7 +5,10 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/video planet scene.unity
     guid: d9d7f70dff4139249a280ee1c82f6547
+  - enabled: 1
+    path: Assets/Scenes/Testing Area.unity
+    guid: 45a2c79574f6cc94aa572af481828015
   m_configObjects: {}
