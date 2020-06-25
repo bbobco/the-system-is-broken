@@ -55,10 +55,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Black Hole\Script\Demo.cs" />
+     <Compile Include="Assets\Black Hole\Script\FreeCamera.cs" />
      <Compile Include="Assets\Graphics\Shaders\Noise\NoiseTest.cs" />
      <Compile Include="Assets\Graphics\Shaders\Noise\vertex\MeshBuilder.cs" />
      <Compile Include="Assets\Graphics\Shaders\Post Processing\PostProcessOutline.cs" />
+     <Compile Include="Assets\Resources\Projectiles\EnemyExplosiveShot.cs" />
+     <Compile Include="Assets\Scripts\Enemies\ExplosiveShot.cs" />
      <Compile Include="Assets\Scripts\Enemies\TimedSpawner.cs" />
+     <Compile Include="Assets\Scripts\Enemies\explosiveDeath.cs" />
+     <Compile Include="Assets\Scripts\Enemies\joyridingpoop.cs" />
+     <Compile Include="Assets\Scripts\Enemies\shrinkonshot.cs" />
+     <Compile Include="Assets\Scripts\Enemies\swapModelsAndExplode.cs" />
      <Compile Include="Assets\Scripts\GUI\HealthBar.cs" />
      <Compile Include="Assets\Scripts\GUI\JetBar.cs" />
      <Compile Include="Assets\Scripts\Game Logic\AnimateVideoPlaybackSpeed.cs" />
@@ -70,11 +78,14 @@
      <Compile Include="Assets\Scripts\Game Logic\PerlinRotator.cs" />
      <Compile Include="Assets\Scripts\Game Logic\Rotator.cs" />
      <Compile Include="Assets\Scripts\Game Logic\badguy.cs" />
+     <Compile Include="Assets\Scripts\Game Logic\explodePlanet.cs" />
      <Compile Include="Assets\Scripts\Game Logic\initializer.cs" />
+     <Compile Include="Assets\Scripts\Game Logic\shooter.cs" />
      <Compile Include="Assets\Scripts\Physics\GravityAttractor.cs" />
      <Compile Include="Assets\Scripts\Physics\GravityBody.cs" />
      <Compile Include="Assets\Scripts\Physics\IgnoreBarCollisions.cs" />
      <Compile Include="Assets\Scripts\Physics\RecalculateNormals.cs" />
+     <Compile Include="Assets\Scripts\Player\BulletHitEffect.cs" />
      <Compile Include="Assets\Scripts\Player\FirstPersonController.cs" />
      <Compile Include="Assets\Scripts\Player\GunSwap.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerHitBox.cs" />
@@ -83,7 +94,10 @@
      <Compile Include="Assets\Scripts\Procedural Gen\PieChartPiece.cs" />
      <Compile Include="Assets\Scripts\Procedural Gen\Triangulator.cs" />
      <Compile Include="Assets\Scripts\UI\FPSDisplay.cs" />
+     <None Include="Assets\Black Hole\ReadMe.txt" />
      <None Include="Assets\Graphics\Shaders\Noise\vertex\NoiseToon.shader" />
+     <None Include="Assets\Black Hole\Shader\Black Hole.shader" />
+     <None Include="Assets\SimpleFX\Materials\UnlitVertexColour_Alpha.shader" />
      <None Include="Assets\Graphics\Shaders\Lit Outine.shader" />
      <None Include="Assets\Graphics\Shaders\TessellationExample.shader" />
      <None Include="Assets\Graphics\Shaders\Noise\vertex\Noise Normals.shader" />

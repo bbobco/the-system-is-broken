@@ -10,6 +10,11 @@ TagManager:
   - Bullet
   - enemyProjectile
   - healthUp
+  - playerAttack
+  - enemy
+  - asteroid
+  - SQUAD
+  - enemybullet
   layers:
   - Default
   - TransparentFX
