@@ -15,6 +15,7 @@ TagManager:
   - asteroid
   - SQUAD
   - enemybullet
+  - block
   layers:
   - Default
   - TransparentFX
@@ -25,7 +26,7 @@ TagManager:
   - 
   - 
   - chromic abberation
-  - 
+  - fog
   - 
   - 
   - 

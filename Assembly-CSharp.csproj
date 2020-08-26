@@ -24,7 +24,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE;UNITY_2019_3_12;UNITY_2019_3;UNITY_2019;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_STANDALONE;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;UNITY_POST_PROCESSING_STACK_V2;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_2019_3_12;UNITY_2019_3;UNITY_2019;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_STANDALONE;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;UNITY_POST_PROCESSING_STACK_V2;PROBUILDER_EXPERIMENTAL_FEATURES;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -55,48 +55,77 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Black Hole\Script\Demo.cs" />
-     <Compile Include="Assets\Black Hole\Script\FreeCamera.cs" />
      <Compile Include="Assets\Graphics\Shaders\Noise\NoiseTest.cs" />
      <Compile Include="Assets\Graphics\Shaders\Noise\vertex\MeshBuilder.cs" />
      <Compile Include="Assets\Graphics\Shaders\Post Processing\PostProcessOutline.cs" />
+     <Compile Include="Assets\Graphics\Shaders\Post Processing\fog\Fog.cs" />
      <Compile Include="Assets\Resources\Projectiles\EnemyExplosiveShot.cs" />
      <Compile Include="Assets\Scripts\Enemies\ExplosiveShot.cs" />
      <Compile Include="Assets\Scripts\Enemies\TimedSpawner.cs" />
-     <Compile Include="Assets\Scripts\Enemies\explosiveDeath.cs" />
+     <Compile Include="Assets\Scripts\Enemies\bigboy.cs" />
+     <Compile Include="Assets\Scripts\Enemies\boxdeath.cs" />
+     <Compile Include="Assets\Scripts\Enemies\chompIsHit.cs" />
+     <Compile Include="Assets\Scripts\Enemies\chompy.cs" />
+     <Compile Include="Assets\Scripts\Enemies\dropship.cs" />
      <Compile Include="Assets\Scripts\Enemies\joyridingpoop.cs" />
+     <Compile Include="Assets\Scripts\Enemies\ninja.cs" />
+     <Compile Include="Assets\Scripts\Enemies\rotateself.cs" />
      <Compile Include="Assets\Scripts\Enemies\shrinkonshot.cs" />
      <Compile Include="Assets\Scripts\Enemies\swapModelsAndExplode.cs" />
+     <Compile Include="Assets\Scripts\Enemies\turret.cs" />
+     <Compile Include="Assets\Scripts\GUI\DashGUI.cs" />
      <Compile Include="Assets\Scripts\GUI\HealthBar.cs" />
      <Compile Include="Assets\Scripts\GUI\JetBar.cs" />
      <Compile Include="Assets\Scripts\Game Logic\AnimateVideoPlaybackSpeed.cs" />
      <Compile Include="Assets\Scripts\Game Logic\BarChart.cs" />
      <Compile Include="Assets\Scripts\Game Logic\ChangeMaterialColor.cs" />
+     <Compile Include="Assets\Scripts\Game Logic\InfiniteLevel.cs" />
      <Compile Include="Assets\Scripts\Game Logic\InteractiveSwitch.cs" />
      <Compile Include="Assets\Scripts\Game Logic\OrbitPlayer.cs" />
      <Compile Include="Assets\Scripts\Game Logic\Orbiter.cs" />
      <Compile Include="Assets\Scripts\Game Logic\PerlinRotator.cs" />
      <Compile Include="Assets\Scripts\Game Logic\Rotator.cs" />
      <Compile Include="Assets\Scripts\Game Logic\badguy.cs" />
+     <Compile Include="Assets\Scripts\Game Logic\booster.cs" />
+     <Compile Include="Assets\Scripts\Game Logic\builder.cs" />
+     <Compile Include="Assets\Scripts\Game Logic\convexchange.cs" />
+     <Compile Include="Assets\Scripts\Game Logic\drillFX.cs" />
+     <Compile Include="Assets\Scripts\Game Logic\explodeEnemies.cs" />
      <Compile Include="Assets\Scripts\Game Logic\explodePlanet.cs" />
+     <Compile Include="Assets\Scripts\Game Logic\explosiveDeath.cs" />
+     <Compile Include="Assets\Scripts\Game Logic\generateScene.cs" />
+     <Compile Include="Assets\Scripts\Game Logic\homingMissile.cs" />
      <Compile Include="Assets\Scripts\Game Logic\initializer.cs" />
+     <Compile Include="Assets\Scripts\Game Logic\miner.cs" />
      <Compile Include="Assets\Scripts\Game Logic\shooter.cs" />
+     <Compile Include="Assets\Scripts\Game Logic\sticky.cs" />
+     <Compile Include="Assets\Scripts\Physics\CylinderAttractor.cs" />
      <Compile Include="Assets\Scripts\Physics\GravityAttractor.cs" />
      <Compile Include="Assets\Scripts\Physics\GravityBody.cs" />
      <Compile Include="Assets\Scripts\Physics\IgnoreBarCollisions.cs" />
      <Compile Include="Assets\Scripts\Physics\RecalculateNormals.cs" />
+     <Compile Include="Assets\Scripts\Physics\rope\RopeControllerRealistic.cs" />
+     <Compile Include="Assets\Scripts\Physics\rope\RopeSection.cs" />
      <Compile Include="Assets\Scripts\Player\BulletHitEffect.cs" />
      <Compile Include="Assets\Scripts\Player\FirstPersonController.cs" />
+     <Compile Include="Assets\Scripts\Player\Grapple.cs" />
      <Compile Include="Assets\Scripts\Player\GunSwap.cs" />
+     <Compile Include="Assets\Scripts\Player\OldJetpackController.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerHitBox.cs" />
      <Compile Include="Assets\Scripts\Player\ShootProjectile.cs" />
      <Compile Include="Assets\Scripts\Procedural Gen\PerlinPlanetGen.cs" />
      <Compile Include="Assets\Scripts\Procedural Gen\PieChartPiece.cs" />
      <Compile Include="Assets\Scripts\Procedural Gen\Triangulator.cs" />
      <Compile Include="Assets\Scripts\UI\FPSDisplay.cs" />
-     <None Include="Assets\Black Hole\ReadMe.txt" />
+     <Compile Include="Assets\Scripts\util\BezierCurve.cs" />
+     <Compile Include="Assets\Scripts\util\Maff.cs" />
+     <Compile Include="Assets\Scripts\util\SearchChildrenRecursive.cs" />
+     <Compile Include="Assets\meshgen.cs" />
+     <Compile Include="Assets\moneydisplay.cs" />
+     <Compile Include="Assets\setAttackTrue.cs" />
+     <Compile Include="Assets\setHitFalse.cs" />
+     <None Include="Assets\3D Game Kit - Character Pack\Shaders\Alien.shader" />
      <None Include="Assets\Graphics\Shaders\Noise\vertex\NoiseToon.shader" />
-     <None Include="Assets\Black Hole\Shader\Black Hole.shader" />
      <None Include="Assets\SimpleFX\Materials\UnlitVertexColour_Alpha.shader" />
      <None Include="Assets\Graphics\Shaders\Lit Outine.shader" />
      <None Include="Assets\Graphics\Shaders\TessellationExample.shader" />
@@ -104,9 +133,11 @@
      <None Include="Assets\Graphics\Shaders\Noise\vertex\NewUnlitShader.shader" />
      <None Include="Assets\Graphics\Shaders\Noise\vertex\NoiseToonDissolve.shader" />
      <None Include="Assets\Graphics\Shaders\Noise\vertex\Noise Mesh.shader" />
+     <None Include="Assets\3D Game Kit - Character Pack\Shaders\EyeLash.shader" />
      <None Include="Assets\Graphics\Shaders\Planar Mapping.shader" />
      <None Include="Assets\Graphics\Shaders\Noise\vertex\OriginalNoiseShader.shader" />
      <None Include="Assets\Graphics\Shaders\Dissolve.shader" />
+     <None Include="Assets\Graphics\Shaders\Post Processing\fog\Fog.shader" />
      <None Include="Assets\Graphics\Shaders\Noise\HLSL\NoiseTest.shader" />
      <None Include="Assets\Graphics\Shaders\Noise\GLSL\NoiseTest.glslinc" />
      <None Include="Assets\Graphics\Shaders\Noise\HLSL\ClassicNoise3D.hlsl" />
@@ -115,18 +146,25 @@
      <None Include="Assets\Graphics\Shaders\Dithering\Halftone.shader" />
      <None Include="Assets\Graphics\Shaders\Grass.shader" />
      <None Include="Assets\Graphics\Shaders\Noise\HLSL\BCCNoise8.hlsl" />
+     <None Include="Assets\PM_VoyagerTurretPack\READ ME!.txt" />
+     <None Include="Assets\3D Game Kit - Character Pack\Shaders\EyeBallsHD.shader" />
      <None Include="Assets\Graphics\Shaders\Toon.shader" />
      <None Include="Assets\Graphics\Shaders\Post Processing\Outline.shader" />
      <None Include="Assets\Graphics\Shaders\Noise\HLSL\BCCNoise4.hlsl" />
+     <None Include="Assets\3D Game Kit - Character Pack\Characters\Spitter\AnimationClips\animations.txt" />
      <None Include="Assets\Graphics\Shaders\Noise\vertex\ChargeGun.shader" />
      <None Include="Assets\Graphics\Shaders\Noise\HLSL\SimplexNoise3D.hlsl" />
      <None Include="Assets\Graphics\Shaders\Noise\vertex\ClassicNoise3D.cginc" />
      <None Include="Assets\Graphics\Shaders\Noise\GLSL\NoiseTest.shader" />
+     <None Include="Assets\3D Game Kit - Character Pack\Shaders\EnergyCore.shader" />
      <None Include="Assets\Graphics\Shaders\Properties.shader" />
+     <None Include="Assets\3D Game Kit - Character Pack\Shaders\SculptedHair.shader" />
      <None Include="Assets\Imports\Skyboxes\Hdri setup.txt" />
      <None Include="Assets\Graphics\Shaders\Noise\vertex\InsideVisible.shader" />
+     <None Include="Assets\3D Game Kit - Character Pack\Shaders\ToonSkin.shader" />
      <None Include="Assets\Graphics\Shaders\Noise\HLSL\ClassicNoise2D.hlsl" />
      <None Include="Assets\Graphics\Shaders\CustomTessellation.cginc" />
+     <None Include="Assets\3D Game Kit - Character Pack\Shaders\Dissolve.shader" />
      <None Include="Assets\Graphics\Shaders\Crack.shader" />
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.12f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
@@ -659,8 +697,23 @@
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>C:/Users/brian/Desktop/unity shiz/The-System-Is-Broken/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.ProGrids">
+ <HintPath>C:/Users/brian/Desktop/unity shiz/The-System-Is-Broken/Library/ScriptAssemblies/Unity.ProGrids.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.VSCode.Editor">
  <HintPath>C:/Users/brian/Desktop/unity shiz/The-System-Is-Broken/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.ProBuilder">
+ <HintPath>C:/Users/brian/Desktop/unity shiz/The-System-Is-Broken/Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.ProBuilder.Editor">
+ <HintPath>C:/Users/brian/Desktop/unity shiz/The-System-Is-Broken/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
+ <HintPath>C:/Users/brian/Desktop/unity shiz/The-System-Is-Broken/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.ProGrids.Editor">
+ <HintPath>C:/Users/brian/Desktop/unity shiz/The-System-Is-Broken/Library/ScriptAssemblies/Unity.ProGrids.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>C:/Users/brian/Desktop/unity shiz/The-System-Is-Broken/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
@@ -682,6 +735,9 @@
  </Reference>
  <Reference Include="Unity.Postprocessing.Runtime">
  <HintPath>C:/Users/brian/Desktop/unity shiz/The-System-Is-Broken/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.ProBuilder.AddOns.Editor">
+ <HintPath>C:/Users/brian/Desktop/unity shiz/The-System-Is-Broken/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
  <HintPath>C:/Users/brian/Desktop/unity shiz/The-System-Is-Broken/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
